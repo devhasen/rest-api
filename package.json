@@ -1,0 +1,9 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "REST API with Express, CRUD, validation and in-memory store",
+  "main": "dist/index.js",
+  "scripts": { "build": "tsc", "start": "node dist/index.js", "dev": "ts-node src/index.ts" },
+  "dependencies": { "express": "^4.19.0", "cors": "^2.8.5", "zod": "^3.23.0" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^20.0.0", "@types/express": "^4.17.0", "@types/cors": "^2.8.0", "ts-node": "^10.9.0" }
+}
